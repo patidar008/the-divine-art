@@ -1,0 +1,182 @@
+/* nav-links paddings */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body {
+  font-family: "Nunito";
+}
+:root {
+  --bs-heading-color: #0c1635;
+  --bs-body-color: #121d3c;
+}
+.navbar {
+  --bs-navbar-active-color: #030714;
+  --bs-navbar-nav-link-padding-x: 1.5rem;
+  padding-block: 0.8rem;
+  --bs-navbar-brand-color:black
+}
+.nav-link{
+  transition: all .3s;
+}
+.nav-link:hover{
+  --bs-navbar-active-color: #4596e0
+
+}
+
+
+
+
+.btn {
+  color: #000;
+  padding-block: 0.8rem;
+  transition: all 1s;
+}
+.btn:hover {
+  color: #0a2946;
+  box-shadow: 1px 1px 20px 1px #4595e097;
+}
+.btn:active{
+  transform: translateY(.2rem);
+  
+}
+.servics-sec {
+  margin-top: 1rem;
+  /* background: #d6e0f8; */
+}
+.service-icon {
+  font-size: 3rem;
+  background: #0a2946;
+  color: #d6e0f8;
+  padding: 0.4rem;
+  transition: color 0.2s;
+  margin-bottom: 0.8rem;
+}
+.service-icon:hover {
+  color: #4596e0;
+}
+.secvice-card {
+  border: 1px solid #0c163537;
+  transition: all 0.4s;
+}
+.secvice-card:hover {
+  box-shadow: 1px 49px 50px #0c73d34b;
+  transform: translateY(-.2rem);
+ 
+  /* border: 1px solid #4596e0; */
+  /* box-shadow: 1px 1px 20px 1px #4595e073; */
+}
+.project {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.project .overlay {
+  position: absolute;
+
+  width: 100%;
+  height: 30%;
+  padding: 0 1rem;
+
+  color: #d1d4d8;
+  background: #1413138b;
+
+  bottom: 0;
+  left: 0;
+  transform: translateY(10rem);
+
+  opacity: 1;
+  transition: all 0.6s ease-in-out;
+}
+
+.project:hover .overlay {
+  transform: translateY(0rem);
+  opacity: 1;
+}
+
+.swiper-slide {
+  border: 1px solid;
+}
+.project:hover {
+  box-shadow: 1px 1px 20px 1px #4595e038;
+}
+/* contact section  */
+.info-box {
+  display: flex;
+  
+
+  border: 1px solid #0a29461f;
+  margin-top: 1.5rem;
+
+  gap: .6rem;
+ 
+  
+  
+}
+
+.icon-contact {
+  background-color: #0a294658;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .6s;
+  
+
+  font-size: 1.6rem;
+}
+.icon-contact:hover{
+  background: #4596e0;
+}
+.info-box-text{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-strip{
+  position: relative;
+}
+.insta-link{
+  
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+ 
+  top: 50%;
+  background: #4596e0;
+
+}
+.insta-link{
+  color: #eef5fe;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border-radius: .2rem;
+  transition: all .3s;
+}
+.insta-link:hover{
+  box-shadow: 1px 1px 20px 1px #4595e097;
+
+
+}
+.footer-logo-container{
+  align-items: center;
+  justify-content: center;
+
+}
+.logo-footer {
+  font-size: 2rem;
+  padding: 1rem;
+  /* transform: translateY(1rem); */
+  background-blend-mode: multiply;
+}
+.logo-footer i{
+  transition: all .6s;
+  
+}
+.logo-footer:hover i{
+  box-shadow: 1px 29px 50px #0c73d3;
+  transform: translateY(-.6rem);
+  color: #176ab8;
+}
